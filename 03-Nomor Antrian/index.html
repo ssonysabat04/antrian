@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Antrian</title>
+</head>
+<body>
+  <h4 style="text-align: center;">Silahkan pilih No. Antrian Anda</h4>
+  <p class="h5">Sesi 1</p><hr class="hr">
+  <div>
+    <button class="button" onclick="changeColor(1)">01</button>
+    <button class="button" onclick="changeColor(2)">02</button>
+    <button class="button" onclick="changeColor(3)">03</button>
+    <button class="button" onclick="changeColor(4)">04</button>
+    <button class="button" onclick="changeColor(5)">05</button>
+    <button class="button" onclick="changeColor(6)">06</button>
+    <button class="button" onclick="changeColor(7)">07</button>
+    <button class="button" onclick="changeColor(8)">08</button>
+    <button class="button" onclick="changeColor(9)">09</button>
+    <button class="button" onclick="changeColor(10)">10</button>
+    </br>
+    <button class="button" onclick="changeColor(11)">11</button>
+    <button class="button" onclick="changeColor(12)">12</button>
+    <button class="button" onclick="changeColor(13)">13</button>
+    <button class="button" onclick="changeColor(14)">14</button>
+    <button class="button" onclick="changeColor(15)">15</button>
+    <button class="button" onclick="changeColor(16)">16</button>
+    <button class="button" onclick="changeColor(17)">17</button>
+    <button class="button" onclick="changeColor(18)">18</button>
+    <button class="button" onclick="changeColor(19)">19</button>
+    <button class="button" onclick="changeColor(20)">20</button>
+    </br>
+    <button class="button" onclick="changeColor(21)">21</button>
+    <button class="button" onclick="changeColor(22)">22</button>
+    <button class="button" onclick="changeColor(23)">23</button>
+    <button class="button" onclick="changeColor(24)">24</button>
+    <button class="button" onclick="changeColor(25)">25</button>
+    <button class="button" onclick="changeColor(26)">26</button>
+    <button class="button" onclick="changeColor(27)">27</button>
+    <button class="button" onclick="changeColor(28)">28</button>
+    <button class="button" onclick="changeColor(29)">29</button>
+    <button class="button" onclick="changeColor(30)">30</button>
+    </br>
+    <button class="button" onclick="changeColor(31)">31</button>
+    <button class="button" onclick="changeColor(32)">32</button>
+    <button class="button" onclick="changeColor(33)">33</button>
+    <button class="button" onclick="changeColor(34)">34</button>
+    <button class="button" onclick="changeColor(35)">35</button>
+    <button class="button" onclick="changeColor(36)">36</button>
+    <button class="button" onclick="changeColor(37)">37</button>
+    <button class="button" onclick="changeColor(38)">38</button>
+    <button class="button" onclick="changeColor(39)">39</button>
+    <button class="button" onclick="changeColor(40)">40</button>
+  </div>
+    <p class="h5">Sesi 2</p><hr class="hr">
+  <div>
+    <button class="button" onclick="changeColor(41)">41</button>
+    <button class="button" onclick="changeColor(42)">42</button>
+    <button class="button" onclick="changeColor(43)">43</button>
+    <button class="button" onclick="changeColor(44)">44</button>
+    <button class="button" onclick="changeColor(45)">45</button>
+    <button class="button" onclick="changeColor(46)">46</button>
+    <button class="button" onclick="changeColor(47)">47</button>
+    <button class="button" onclick="changeColor(48)">48</button>
+    <button class="button" onclick="changeColor(49)">49</button>
+    <button class="button" onclick="changeColor(50)">50</button>
+    </br>
+    <button class="button" onclick="changeColor(51)">51</button>
+    <button class="button" onclick="changeColor(52)">52</button>
+    <button class="button" onclick="changeColor(53)">53</button>
+    <button class="button" onclick="changeColor(54)">54</button>
+    <button class="button" onclick="changeColor(55)">55</button>
+    <button class="button" onclick="changeColor(56)">56</button>
+    <button class="button" onclick="changeColor(57)">57</button>
+    <button class="button" onclick="changeColor(58)">58</button>
+    <button class="button" onclick="changeColor(59)">59</button>
+    <button class="button" onclick="changeColor(60)">60</button>
+    </br>
+    <button class="button" onclick="changeColor(61)">61</button>
+    <button class="button" onclick="changeColor(62)">62</button>
+    <button class="button" onclick="changeColor(63)">63</button>
+    <button class="button" onclick="changeColor(64)">64</button>
+    <button class="button" onclick="changeColor(65)">65</button>
+    <button class="button" onclick="changeColor(66)">66</button>
+    <button class="button" onclick="changeColor(67)">67</button>
+    <button class="button" onclick="changeColor(68)">68</button>
+    <button class="button" onclick="changeColor(69)">69</button>
+    <button class="button" onclick="changeColor(70)">70</button>
+    </br>
+    <button class="button" onclick="changeColor(71)">71</button>
+    <button class="button" onclick="changeColor(72)">72</button>
+    <button class="button" onclick="changeColor(73)">73</button>
+    <button class="button" onclick="changeColor(74)">74</button>
+    <button class="button" onclick="changeColor(75)">75</button>
+    <button class="button" onclick="changeColor(76)">76</button>
+    <button class="button" onclick="changeColor(77)">77</button>
+    <button class="button" onclick="changeColor(78)">78</button>
+    <button class="button" onclick="changeColor(79)">79</button>
+    <button class="button" onclick="changeColor(80)">80</button>
+
+    <button class="bBatal" onclick="batal()" id="deleteButton">Batal</button>
+    <button class="bDaftar" onclick="daftar()" id="waktuButton">Daftar</button>
+  </div>
+  
+  <div class="flex-container">
+    <p class="tWaktu">Waktu         : <span id="display-waktu"></span></p>
+    <p class="tNama">Nama           : <span id="display-nama"></span></p>
+    <p class="tPoli">Poli           : <span id="display-poli"></span></p>
+    <p class="tDokter">Dokter       : <span id="display-dokter"></span></p>
+    <p class="tNoHP">No Handphone   : <span id="display-noHP"></span></p>
+    <p class="tNoAntri">No Antrian  : <span id="display-noAntri"></span></p>
+    <p class="tStatus">Status No Antrian</p>
+
+    <img class="white" src="white.png"> <p class="teksTersedia">Tersedia</p>
+    <img class="tosca" src="dark.png"> <p class="teksTerpilih">Terpilih</p>
+    <img class="red" src="red.png"> <P class="teksBatal">Batal</P>
+    <img class="gray" src="gray.png"> <p class="teksTidaktersedia">Tidak Tersedia</p>
+  </div>
+  
+  <script src="app.js"></script>
+
+</body>
+</html>

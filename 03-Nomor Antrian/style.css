@@ -1,0 +1,194 @@
+hr {
+  color: #333; /* Warna garis */
+  background-color: #00ced1;; /* Warna latar belakang garis */
+  height: 2px; /* Tinggi garis */
+  border: none; /* Tanpa border */
+  margin: 10px 0; /* Jarak dari atas dan bawah */
+  width: 608px; /* Lebar garis */
+}
+
+.body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.h4 {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.h5 {
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-align: left;
+  color: #00ced1;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.bBatal {
+  color: orange;
+  background-color: white;
+  height: 50px;
+  width: 250px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+}
+
+.bDaftar {
+  color: white;
+  background-color: orange;
+  height: 50px;
+  width: 250px;
+  
+  margin-left: 10px;
+}
+
+.button.batal {
+  color: orange;
+  background-color: white;
+}
+
+.button.daftar {
+  color: white;
+  background-color: orange;
+}
+
+.button.clicked {
+  background-color: #00CED1; /* Warna tosca */
+}
+
+.button.registered {
+  background-color: #00CED1;
+}
+
+.button.cancel {
+  background-color: red;
+}
+
+.p {
+  font-size: 14px;
+  position: absolute;
+}
+
+.tStatus {
+  position: absolute;
+  top: 280px;
+  left: 650px;
+  color: #00CED1;
+}
+
+.tWaktu {
+  position: absolute;
+  font-size: 14px;
+  top: 60px;
+  left: 650px;
+}
+
+.tNama {
+  position: absolute;
+  font-size: 14px;
+  top: 90px;
+  left: 650px;
+}
+
+.tPoli {
+  position: absolute;
+  font-size: 14px;
+  top: 120px;
+  left: 650px;
+}
+
+.tDokter {
+  position: absolute;
+  font-size: 14px;
+  top: 150px;
+  left: 650px;
+}
+
+.tNoHP {
+  position: absolute;
+  font-size: 14px;
+  top: 180px;
+  left: 650px;
+}
+
+.tNoAntri {
+  position: absolute;
+  font-size: 14px;
+  top: 210px;
+  left: 650px;
+}
+
+.white {
+  position: absolute;
+  top: 350px; 
+  left: 650px; 
+  max-width: 2%; 
+  max-height: 3%; 
+  filter: drop-shadow(2px 2px 5px rgb(126, 126, 126));
+}
+
+.tosca {
+  position: absolute;
+  top: 380px; 
+  left: 650px;  
+  max-width: 2%; 
+  max-height: 3%; 
+  margin-top: 15px;
+  filter: drop-shadow(2px 2px 5px rgb(126, 126, 126));
+}
+
+.red {
+  position: absolute;
+  top: 410px; 
+  left: 650px;  
+  max-width: 2%; 
+  max-height: 3%; 
+  margin-top: 25px;
+  filter: drop-shadow(2px 2px 5px rgb(126, 126, 126));
+}
+
+.gray {
+  position: absolute;
+  top: 440px; 
+  left: 650px; 
+  max-width: 2%; 
+  max-height: 3%; 
+  margin-top: 35px;
+  filter: drop-shadow(2px 2px 5px rgb(126, 126, 126));
+}
+
+.teksTersedia {
+  position: absolute;
+  top: 340px; 
+  left: 700px; 
+  font-size: 14px;
+}
+
+.teksTerpilih {
+  position: absolute;
+  top: 385px; 
+  left: 700px; 
+  font-size: 14px;
+}
+
+.teksBatal {
+  position: absolute;
+  top: 425px; 
+  left: 700px; 
+  font-size: 14px;
+}
+
+.teksTidaktersedia {
+  position: absolute;
+  top: 465px; 
+  left: 700px; 
+  font-size: 14px;
+}

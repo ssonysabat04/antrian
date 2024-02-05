@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <form id="appointment-form">
+        <label for="waktu">Waktu:</label><br>
+        <input type="time" id="waktu" name="waktu"><br>
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama"><br>
+        <label for="poli">Poli:</label><br>
+        <input type="text" id="poli" name="poli"><br>
+        <label for="dokter">Dokter:</label><br>
+        <input type="text" id="dokter" name="dokter"><br>
+        <label for="noHP">No HP:</label><br>
+        <input type="tel" id="noHP" name="noHP"><br>
+        <button type="submit">Daftar</button>
+    </form>
+
+    <script>
+        const form = document.getElementById('appointment-form');
+
+        form.addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            const formData = new FormData(form);
+            const data = {
+                waktu: formData.get('waktu'),
+                nama: formData.get('nama'),
+                poli: formData.get('poli'),
+                dokter: formData.get('dokter'),
+                noHP: formData.get('noHP')
+            };
+
+            localStorage.setItem('appointmentData', JSON.stringify(data));
+            window.location.href = 'index.html';
+        });
+    </script>
+</body>
+</html>
